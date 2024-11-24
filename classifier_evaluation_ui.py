@@ -4,7 +4,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 import streamlit as st
-os.environ["NVIDIA_API_KEY"] = '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'
+os.environ["NVIDIA_API_KEY"] = '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'
 def read_questions(file_path):
     question_categories = []
     with open(file_path, 'r', encoding='utf-8') as file:
